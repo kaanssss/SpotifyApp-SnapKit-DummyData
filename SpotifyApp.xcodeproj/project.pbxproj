@@ -51,6 +51,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF6BB1CA2976BB1C00280620 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				DF67CD7A29680F7200D4EF58 /* Factories.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		DF6BB1CB2976BB2700280620 /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				DF781F392971781C007B1A83 /* PlaylistCell.swift */,
+				DF6B35D02975714300083DDC /* PlaylistCellDS.swift */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+		DF6BB1CC2976BB3B00280620 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				DF67CD7C2968459800D4EF58 /* HomeController.swift */,
+				DF781F3B29717A49007B1A83 /* HomeControllerDS.swift */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		DF6BB1CD2976BB4A00280620 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DF6B35D22975757100083DDC /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DF6BB1CE2976BB5C00280620 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB86DD296714C700CCEF6A /* Container.swift */,
+				DFFB86CA296701FD00CCEF6A /* TitleBarController.swift */,
+				DF67CD7E2968468400D4EF58 /* MenuBar.swift */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
 		DFFB86BA296701FD00CCEF6A = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				DFFB86DF296714CD00CCEF6A /* Files */,
+				DFFB86C6296701FD00CCEF6A /* AppDelegate.swift */,
 				DFFB86CF296701FE00CCEF6A /* Assets.xcassets */,
 				DFFB86D1296701FE00CCEF6A /* LaunchScreen.storyboard */,
 				DFFB86D4296701FE00CCEF6A /* Info.plist */,
@@ -81,16 +126,11 @@
 		DFFB86DF296714CD00CCEF6A /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				DFFB86C6296701FD00CCEF6A /* AppDelegate.swift */,
-				DFFB86DD296714C700CCEF6A /* Container.swift */,
-				DFFB86CA296701FD00CCEF6A /* TitleBarController.swift */,
-				DF67CD7C2968459800D4EF58 /* HomeController.swift */,
-				DF67CD7E2968468400D4EF58 /* MenuBar.swift */,
-				DF67CD7A29680F7200D4EF58 /* Factories.swift */,
-				DF781F392971781C007B1A83 /* PlaylistCell.swift */,
-				DF6B35D02975714300083DDC /* PlaylistCellDS.swift */,
-				DF781F3B29717A49007B1A83 /* HomeControllerDS.swift */,
-				DF6B35D22975757100083DDC /* Data.swift */,
+				DF6BB1CE2976BB5C00280620 /* Bar */,
+				DF6BB1CC2976BB3B00280620 /* HomeController */,
+				DF6BB1CA2976BB1C00280620 /* Factories */,
+				DF6BB1CB2976BB2700280620 /* Playlist */,
+				DF6BB1CD2976BB4A00280620 /* Data */,
 			);
 			name = Files;
 			path = "Fİles";
